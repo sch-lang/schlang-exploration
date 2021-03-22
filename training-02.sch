@@ -1,6 +1,6 @@
 use std, io;
 
-fibonacci(n: int) -> int {
+fibonacci(n: int): int {
     if (n is 0) {
         return 0;
     } else if (n is 1 or 2) {
